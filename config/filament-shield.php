@@ -42,7 +42,7 @@ return [
 
     'policies' => [
         'path' => app_path('Policies'),
-        'merge' => true,
+        'merge' => false,
         'generate' => true,
         'methods' => [
             'viewAny', 'view', 'create', 'update', 'restore', 'restoreAny',
